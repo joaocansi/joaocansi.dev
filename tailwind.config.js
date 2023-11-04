@@ -9,10 +9,10 @@ module.exports = {
         background: '#F1EEDF'
       },
       fontSize: {
-        sm: '24px',
-        base: '28px',
-        lg: ['112px', '1'],
-        xl: ['216px', '1']
+        sm: '22px',
+        base: '26px',
+        lg: ['100px', '1'],
+        xl: ['200px', '1']
       },
       container: {
         screens: {

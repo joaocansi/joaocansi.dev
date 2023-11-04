@@ -2,9 +2,9 @@ import Button from "./button"
 
 const Home = () => {
   return (
-    <section id="home" className="flex justify-center min-h-[calc(100vh-theme(height.32))]">
-      <div className="w-full flex items-center justify-center mb-32">
-        <img className="w-[600px]" src="/dog-dancing.gif" alt="Dog Dancing" />
+    <section id="home" className="flex justify-center min-h-[calc(100vh-theme(height.24))]">
+      <div className="w-full flex items-center justify-center mb-20">
+        <img className="w-[450px]" src="/dog-dancing.gif" alt="Dog Dancing" />
         <div className="flex flex-col gap-5 w-1/2 ml-10">
           <h3 className="text-xl uppercase font-black">Hey,</h3>
           <p className="text-base">
