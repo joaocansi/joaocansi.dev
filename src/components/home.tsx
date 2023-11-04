@@ -6,7 +6,7 @@ const Home = () => {
       <div className="w-full flex items-center justify-center mb-20">
         <img className="w-[450px]" src="/dog-dancing.gif" alt="Dog Dancing" />
         <div className="flex flex-col gap-5 w-1/2 ml-10">
-          <h3 className="text-xl uppercase font-black">Hey,</h3>
+          <p className="text-xl uppercase font-black">Hey,</p>
           <p className="text-base">
             I&#39;m web developer (not a dog) from Rio de Janeiro, 
             Brazil currently an undergraduate student. Passionate 
