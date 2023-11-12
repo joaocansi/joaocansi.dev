@@ -9,6 +9,7 @@ module.exports = {
         background: '#F1EEDF',
       },
       fontSize: {
+        xs: '19px',
         sm: '22px',
         base: '26px',
         lg: ['150px', '1'],

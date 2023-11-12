@@ -14,7 +14,7 @@ function Button({ children, link }: ButtonProps) {
     return (
       <Link
         {...link}
-        className="rounded-xl bg-neutral-300 p-6 text-center text-sm transition-colors hover:bg-stone-400"
+        className="rounded-xl bg-neutral-300 px-6 py-4 text-center text-xs transition-colors hover:bg-stone-400"
       >
         {children}
       </Link>

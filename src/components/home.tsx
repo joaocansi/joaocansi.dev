@@ -15,7 +15,7 @@ function Home() {
             back-end and deep learning. I have some posts here; hopefully, they
             may help you somehow. Don&#39;t forget to see my last projects.
           </p>
-          <div className="flex gap-5">
+          <div className="flex gap-3">
             <Button link={{ href: '#blog' }}>Dog&#39;s blog</Button>
             <Button link={{ href: '#projects' }}>Dog&#39;s projects</Button>
           </div>
