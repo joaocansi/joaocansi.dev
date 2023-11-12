@@ -1,11 +1,11 @@
-import { ReactNode } from "react";
-import Header from "./header";
+import { type ReactNode } from 'react'
+import Header from './header'
 
-type ContainerProps = {
-  children: ReactNode;
+interface ContainerProps {
+  children: ReactNode
 }
 
-const Container: React.FC<ContainerProps> = ({ children }) => {
+function Container({ children }: ContainerProps) {
   return (
     <main className="container mx-auto min-h-screen">
       <Header />
@@ -14,4 +14,4 @@ const Container: React.FC<ContainerProps> = ({ children }) => {
   )
 }
 
-export default Container;
+export default Container
