@@ -6,8 +6,8 @@ function Home() {
       id="home"
       className="flex min-h-[calc(100vh-theme(height.24))] justify-center"
     >
-      <div className="flex flex-col items-center gap-8">
-        <div className="flex flex-col gap-5">
+      <div className="flex flex-col items-center gap-8 lg:flex-row-reverse">
+        <div className="flex flex-col gap-5 lg:w-2/3">
           <p className="text-lg font-black uppercase">Hey,</p>
           <p className="text-sm">
             I&#39;m web developer (not a dog) from Rio de Janeiro, Brazil
@@ -20,7 +20,11 @@ function Home() {
             <Button link={{ href: '#projects' }}>Dog&#39;s projects</Button>
           </div>
         </div>
-        <img className="w-[400px]" src="/dog-dancing.gif" alt="Dog Dancing" />
+        <img
+          className="w-[300px] lg:w-[400px]"
+          src="/dog-dancing.gif"
+          alt="Dog Dancing"
+        />
       </div>
     </section>
   )
