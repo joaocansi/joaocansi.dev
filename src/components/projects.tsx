@@ -5,14 +5,14 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="flex min-h-screen flex-col items-center gap-3 py-10"
+      className="flex min-h-screen flex-col items-center gap-3 py-5"
     >
-      <h2 className="text-md font-black uppercase">Projects</h2>
+      <h2 className="text-2md font-black uppercase max-sm:text-md">Projects</h2>
       <p className="w-full max-w-[800px] text-center text-base max-sm:text-sm">
         These are my projects I made during my journey as a tech guy. Hope you
         like it!
       </p>
-      <div className="mt-5 flex flex-wrap justify-center gap-5 text-sm">
+      <div className="mt-5 flex flex-wrap justify-center gap-5 text-sm max-sm:mt-2 max-sm:text-xs">
         {objects.map((item, index) => (
           <span
             key={`projects-types-${index}`}

@@ -11,7 +11,7 @@ function Home() {
     >
       <div className="mb-20 flex w-full items-center justify-center gap-10 max-lg:flex-col-reverse">
         <img
-          className="w-[450px] max-xl:w-[400px]"
+          className="w-72 md:w-[450px]"
           src="/dog-dancing.gif"
           alt="Dog Dancing"
         />
