@@ -14,7 +14,7 @@ function Button({ children, link }: ButtonProps) {
     return (
       <Link
         {...link}
-        className="bg-neutral-300 transition-colors hover:bg-stone-400 text-sm px-12 py-6 rounded-3xl min-w-[300px] text-center"
+        className="rounded-xl bg-neutral-300 p-6 text-center text-sm transition-colors hover:bg-stone-400"
       >
         {children}
       </Link>
@@ -23,7 +23,7 @@ function Button({ children, link }: ButtonProps) {
   return (
     <button
       type="button"
-      className="bg-neutral-300 transition-colors hover:bg-stone-400 text-sm px-12 py-6 rounded-3xl min-w-[300px] text-center"
+      className="min-w-[300px] rounded-3xl bg-neutral-300 px-12 py-6 text-center text-sm transition-colors hover:bg-stone-400"
     >
       {children}
     </button>

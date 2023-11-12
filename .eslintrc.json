@@ -8,7 +8,8 @@
       "airbnb",
       "plugin:react/recommended",
       "plugin:@typescript-eslint/recommended",
-      "eslint-config-prettier"
+      "eslint-config-prettier",
+      "plugin:tailwindcss/recommended"
     ],
     "parserOptions": {
       "ecmaVersion": "latest",
