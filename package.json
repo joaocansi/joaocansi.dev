@@ -12,6 +12,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.16",
     "clsx": "^2.0.0",
+    "contentful": "^10.6.7",
     "eslint-plugin-prettier": "^5.0.1",
     "next": "14.0.0",
     "postcss": "^8.4.31",

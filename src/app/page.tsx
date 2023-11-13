@@ -1,7 +1,7 @@
 import Home from '@/components/home'
 import Projects from '@/components/projects'
 
-export default function Index() {
+export default async function Index() {
   return (
     <>
       <Home />
