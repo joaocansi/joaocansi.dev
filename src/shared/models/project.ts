@@ -1,6 +1,8 @@
+import { Asset } from 'contentful'
+
 type Project = {
   title: string
-  image: string
+  image: Asset
   github: string
   website: string
   description: string
