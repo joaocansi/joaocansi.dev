@@ -38,7 +38,7 @@
       "react/jsx-props-no-spreading": "off",
       "react/require-default-props": "off",
       "react/no-array-index-key": "off",
-      "object-curly-newline": ["error", { "multiline": true, "minProperties": 4 }]
+      "tailwindcss/migration-from-tailwind-2": "off"
     },
     "settings": {
       "import/resolver": {
