@@ -1,8 +1,8 @@
 import api from '@/shared/api'
 import { getTechnologies } from '@/shared/models/project'
 import Project from './project'
-import Section from './section'
-import Selectable from './selectable'
+import Section from '../section'
+import Selectable from '../selectable'
 
 async function Projects() {
   const projects = await api.getProjects()
@@ -22,7 +22,7 @@ async function Projects() {
           </Selectable>
         ))}
       </div>
-      <div className="mt-5 flex max-w-2xl flex-wrap gap-10">
+      <div className="mt-16 flex flex-wrap justify-center gap-8">
         {projects.map((project, index) => (
           <Project key={`project-${index}`} {...project} />
         ))}

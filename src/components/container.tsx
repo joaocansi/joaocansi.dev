@@ -7,7 +7,7 @@ interface ContainerProps {
 
 function Container({ children }: ContainerProps) {
   return (
-    <main className="mx-auto min-h-screen w-[95%] max-w-screen-2xl">
+    <main>
       <Header />
       {children}
     </main>
