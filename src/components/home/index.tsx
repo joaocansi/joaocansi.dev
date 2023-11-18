@@ -4,7 +4,7 @@ function Home() {
   return (
     <section
       id="home"
-      className="flex min-h-[calc(100vh-theme(height.24))] justify-center"
+      className="m-auto flex min-h-[calc(100vh-theme(height.24))] w-[90%] justify-center"
     >
       <div className="mb-20 flex w-full items-center justify-center gap-10 max-xl:mt-5 max-lg:flex-col-reverse">
         <img

@@ -16,10 +16,10 @@ function Section({
   return (
     <section
       id={id}
-      className={`flex min-h-screen flex-col items-center gap-3 py-5 ${containerClassName}`}
+      className={`flex min-h-screen flex-col items-center gap-3 pb-8 pt-5 ${containerClassName}`}
     >
       <div
-        className={`mx-auto flex min-h-screen w-[95%] max-w-screen-2xl flex-col items-center ${contentClassName}`}
+        className={`mx-auto flex min-h-screen w-[90%] max-w-screen-2xl flex-col items-center ${contentClassName}`}
       >
         {children}
       </div>
