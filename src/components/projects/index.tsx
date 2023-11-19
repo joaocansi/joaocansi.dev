@@ -9,12 +9,11 @@ async function Projects() {
   const technologies: string[] = getTechnologies(projects)
 
   return (
-    <Section id="projects">
-      <h2 className="text-2md font-black uppercase max-sm:text-md">Projects</h2>
-      <p className="w-full max-w-[800px] text-center text-base max-sm:text-sm">
-        These are the projects I made during my journey as a tech guy. Hope you
-        like it!
-      </p>
+    <Section
+      id="projects"
+      title="Projects"
+      description="These are the projects I made during my journey as a tech guy. Hope you like it!"
+    >
       <div className="mt-5 flex flex-wrap justify-center gap-5 text-sm max-sm:mt-2 max-sm:text-xs">
         {technologies.map((item, index) => (
           <Selectable key={`technologies-${index}`} active={false}>
