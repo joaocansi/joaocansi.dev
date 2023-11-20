@@ -1,12 +1,14 @@
-import api from '@/shared/api'
-import { getTechnologies } from '@/shared/models/project'
+import IProject, { getTechnologies } from '@/shared/models/project'
 import Project from './project'
 import Section from '../section'
 import Selectable from '../selectable'
 
-async function Projects() {
-  const projects = await api.getProjects()
-  const technologies: string[] = getTechnologies(projects)
+type ProjectsProps = {
+  data: IProject[]
+}
+
+function Projects({ data }: ProjectsProps) {
+  const technologies: string[] = getTechnologies(data)
 
   return (
     <Section
@@ -22,7 +24,7 @@ async function Projects() {
         ))}
       </div>
       <div className="mt-16 flex flex-wrap justify-center gap-8">
-        {projects.map((project, index) => (
+        {data.map((project, index) => (
           <Project key={`project-${index}`} {...project} />
         ))}
       </div>

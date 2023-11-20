@@ -1,8 +1,14 @@
-import { InputHTMLAttributes } from 'react'
+import { TextareaHTMLAttributes } from 'react'
 
-type InputProps = InputHTMLAttributes<HTMLInputElement>
+type TextareaProps = TextareaHTMLAttributes<HTMLTextAreaElement>
 
-function Input({ placeholder, name, className, id, ...props }: InputProps) {
+function Textarea({
+  placeholder,
+  className,
+  name,
+  id,
+  ...props
+}: TextareaProps) {
   return (
     <div>
       <label
@@ -11,7 +17,7 @@ function Input({ placeholder, name, className, id, ...props }: InputProps) {
       >
         {placeholder}
       </label>
-      <input
+      <textarea
         id={id}
         name={name}
         className={`w-full px-3 py-4 text-xs outline-none ${className}`}
@@ -21,4 +27,4 @@ function Input({ placeholder, name, className, id, ...props }: InputProps) {
   )
 }
 
-export default Input
+export default Textarea
