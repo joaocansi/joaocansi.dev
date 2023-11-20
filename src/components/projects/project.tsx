@@ -1,6 +1,7 @@
 import Project from '@/shared/models/project'
+import Link from 'next/link'
 
-function Project({ description, image, title }: Project) {
+function Project({ description, image, title, github }: Project) {
   return (
     <div className="group relative flex h-[278px] w-full max-w-[444px] cursor-pointer overflow-hidden rounded-3xl">
       <img
@@ -13,6 +14,7 @@ function Project({ description, image, title }: Project) {
         <h5 className="text-[32px] font-bold uppercase">{title}</h5>
         <p className="text-xs">{description}</p>
       </div>
+      <Link href={github} target="_blank" className="absolute h-full w-full" />
     </div>
   )
 }
